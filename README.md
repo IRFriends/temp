@@ -3,7 +3,7 @@
 # EeveeSpotifyReincarnated
 
 **Maintainers:** [jaydenjcpy](https://github.com/jaydenjcpy) & [faroukbmiled](https://github.com/faroukbmiled) & [Mod4](https://github.com/M0d-4) <br />
-**Last Update:** `10/5/26` **Spotify Version:** `9.1.88`
+**Last Update:** `11/15/26` **Spotify Version:** `9.2.0`
 
 This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.
 
@@ -14,12 +14,9 @@ This tweak makes Spotify think you have a Premium subscription, granting free li
 
 **Spotify 9.1.56 and above** - Full custom lyrics functionality is available with the following providers:
 - **SpicyLyrics**
-- **Musixmatch\***
 - **LRCLIB**
 - **Genius**
 - **PetitLyrics**
-
-<sup>*Musixmatch requires you to input a user token to retrieve lyrics. EeveeSpotifyReincarnated supports requesting an Anonymous Token to retrieve this functionality.</sup>
 
 ## How to build an EeveeSpotify IPA using Github actions
 > [!NOTE]
@@ -54,21 +51,17 @@ In March 2026, users of the latest EeveeSpotifyRevivedPublic release (v9.1.28) e
 
 Today, EeveeSpotifyReincarnated is maintained by [jaydenjcpy](https://github.com/jaydenjcpy), [faroukbmiled](https://github.com/faroukbmiled), and [Mod4](https://github.com/M0d-4), keeping the tweak alive as Spotify keeps changing.
 
-
-
 ## Restrictions
 
 Please refrain from opening issues about the following features, as they are server-sided and will **NEVER** work:
 
-- Very High audio quality
-- Native playlist downloading (you can download podcast episodes though)
+- Very High/Lossless audio quality
 - Jam (hosting a Spotify Jam and joining it remotely requires Premium; only joining in-person works)
 - AI DJ/Playlist
 - Spotify Connect (When using Spotify Connect, the device will act as a remote control and stream directly to the connected device. This is a server-sided limitation and is beyond the control of EeveeSpotify, so it will behave as if you have a Free subscription while using this feature.)
 
 ## [Common Issues](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md)
 Please check out the hyperlink above before opening an issue
-
 
 ## Lyrics Support
 
@@ -78,9 +71,9 @@ EeveeSpotify replaces Spotify monthly limited lyrics with one of the following f
 
 - LRCLIB: The most open service, offering time-synced lyrics. However, it lacks lyrics for many songs.
 
-- Musixmatch: The service Spotify uses. Provides time-synced lyrics for many songs, but you'll need a user token to use this source. To obtain the token, download Musixmatch from the App Store, sign up, then go to Settings > Get help > Copy debug info, and paste it into EeveeSpotify alert. You can also extract the token using MITM.
-
 - PetitLyrics: Offers plenty of time-synced Japanese and some international lyrics.
+
+- SpicyLyrics : Provides word-by-word karaoke lyrics. A built-in key is used by default. You can use your own key if you want to.
 
 If the tweak is unable to find a song or process the lyrics, you'll see a "Couldn't load the lyrics for this song" message. The lyrics might be wrong for some songs when using Genius due to how the tweak searches songs. While I've made it work in most cases, kindly refrain from opening issues about it.
 
@@ -119,7 +112,13 @@ Thanks for all of the community's support, also, thanks to all the devs who work
 
 [Spikerko](https://github.com/Spikerko)
 
+[Glonq](https://github.com/Glongq)
+
 - This project is a fork of [Meeep1/EeveeSpotifyRevivedPublic](https://github.com/Meeep1/EeveeSpotifyRevivedPublic).
+
+## Vibecoded Pull Requests & Commit Comments
+
+Please note that there are some vibecoded pull requests and vibecoded commit comments in this repository.
 
 ## Disclaimer
 
